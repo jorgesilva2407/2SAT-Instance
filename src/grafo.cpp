@@ -62,11 +62,6 @@ void Graph::find_SCC(){
         
         trans_dfs_order.pop();
     }
-
-    // for(int i=0; i < n_nodes; i++){
-    //     std::cout << components[i] << " ";
-    // }
-    // std::cout << std::endl;
 }
 
 Graph::~Graph(){
